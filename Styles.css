@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/3840x2160/189619.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 90px;
+    margin: 0.5em;
+    text-rendering: optimizeLegibility;
+    text-transform: uppercase;
+    padding: 90px 60px;
+    color: #D2691E;
+    letter-spacing: .15em;
+    text-shadow: 
+      4px 4px 0px #00CED1, 
+      7px 7px 0px rgba(6.5, 0, 7, 5);      
+}
+
+.abc{ 
+border: outset ;
+background-color: #F0E68C;
+display: inline;
+border-radius: 5px;
+padding: 3px 3px;
+}
+
+.cad{
+border: outset ;
+background-color: blue;
+display: inline;
+border-radius: 4px;
+padding: 3px 3px;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 10px 12px;
+
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 2px solid black;
+  background-color: ;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+    padding: 3px ;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 4em;
+    display: inline;
+    border-radius: 4px;
+    padding: 3px 3px;
+}
+#sizePicker{
+    font-family:  Charcoal, sans-serif;
+     padding: 10px 12px;
+     color : #7FFF00;
+    
+}
+#one
+{
+  background-color: pink;
+}
+#two{
+  border: outset ;
+background-color: 	#B8860B;
+display: inline;
+border-radius: 5px;
+padding: 3px 3px;
+}
+input[type=submit]{
+    font-family: Century Gothic;
+    border-radius: 4px;
+    padding: 3px 3px;
+}
+
+button{
+    padding: 3px 3px;
+    border-radius: 4px;
+}
+
+#colorPicker{
+    border-radius: 4px;
+
+}
