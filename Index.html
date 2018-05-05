@@ -1,0 +1,42 @@
+<html>
+<html>
+<head>
+    <title>Lab: Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1><div class="abc">Pixel Art Maker</div></h1>
+
+    <h2><div id="one">Choose Grid/Matrix Size</div></h2>
+    <form id="sizePicker">
+        <span class="cad">Grid Height :</span>
+        <span style="display:inline-block; width: 0.5em;"></span>
+        <input type="number" id="inputHeight" name="height" min="1"  value="10">
+                <span style="display:inline-block; width: 2em;"></span>
+        <span class="cad">Grid Width :</span>
+                <span style="display:inline-block; width: 0.5em;"></span>
+        <input type="number" id="inputWeight" name="width" min="1" value="10">
+                <span style="display:inline-block; width: 1em;"></span>
+        <input type="submit">
+    </form>
+
+    <h2><div id="two">Choose a Color</div></h2>
+    <input type="color" id="colorPicker">
+
+    <h2><div id="two">Design Canvas</div></h2>
+    <button type="button" onclick="resetGrid()">Reset Table</button> 
+    <span style="display:inline-block; width: 0.5em;"></span>
+    <button type="button" onclick="resetColour()">Reset Colour</button>
+    <span style="display:block; height: 1em;"></span>
+
+    <table id="pixelCanvas"></table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="designs.js"></script>
+    
+
+</body>
+</html>
